@@ -2,15 +2,20 @@
   "name": "wetube-clone",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chatchi923/wetube-clone.git"
+  },
+  "scripts": {
+    "win": "node index.js"
   },
   "author": "Jeewon Choi<xx@xxx.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chatchi923/wetube-clone/issues"
   },
-  "homepage": "https://github.com/chatchi923/wetube-clone#readme"
+  "homepage": "https://github.com/chatchi923/wetube-clone#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
