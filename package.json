@@ -7,7 +7,7 @@
     "url": "git+https://github.com/chatchi923/wetube-clone.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "Jeewon Choi<xx@xxx.com>",
   "license": "ISC",
