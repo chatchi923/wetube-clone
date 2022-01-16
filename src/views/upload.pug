@@ -2,5 +2,7 @@ extends base
 
 block content 
     form(method="POST")
-        input(type="text", placeholder="Title", required, name="title")
+        input(placeholder="Title", type="text", required, name="title")
+        input(placeholder="Description", type="text", required, name="description")
+        input(placeholder="Hashtags, separated by comma.", type="text", required, name="hashtags")
         input(type="submit", value="Upload Video")
